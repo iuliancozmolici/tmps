@@ -17,7 +17,7 @@ class Task {
     }
 }
 ```
-![Alt text](SRP(Task).png)
+![Alt text]((SRP)Task.png)
 
 Clasa Task are următoarele atribute și metode:
 
