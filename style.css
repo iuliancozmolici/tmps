@@ -6,10 +6,23 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Oswald', sans-serif;
     max-width: 700px;
     margin: 0 auto;
     padding: 20px;
+    background-image: url(/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    background-color: rgb(228, 220, 220, 0.7);
+    padding: 10px 20px;
+    margin-top: 100px;
+}
+
+input, .container, button{
+    border-radius: 15px;
 }
 
 input {
@@ -21,6 +34,11 @@ input,
 button {
     font-size: 16px;
     padding: 8px;
+    font-family: inherit;
+}
+
+h1{
+    text-align: center;
 }
 
 label {
@@ -66,3 +84,16 @@ li {
     justify-content: space-between;
     align-items: center;
 }
+
+.main{
+    display: flex;
+}
+
+.taskInput{
+    flex-basis: 80%;
+}
+
+.dueDateInput{
+    flex-basis: 20%;
+}
+
